@@ -5,7 +5,7 @@
 		<label>Source image URL</label>
 		<input id="url" type="text" />
 		<button id="load">load Image</button>
-		<img id="img" src="https://i.imgur.com/Sq0mW5l.png" />
+		<img id="img" src="https://i.imgur.com/Mgo91R7.png" />
 		<br>
 		<label>top left corner coordinates</label>
 		<input id="x" type="number" value="334" />
@@ -21,7 +21,7 @@
 			const ctx = canvas.getContext('2d');
 			const img = document.getElementById('img');
 			img.crossOrigin = 'anonymous';
-			img.src = 'https://i.imgur.com/fEs3kr1.png';
+			img.src = 'https://i.imgur.com/Mgo91R7.png';
 			document.getElementById('url').value = img.src;
 
 			document.getElementById('btn').addEventListener('click', draw);
